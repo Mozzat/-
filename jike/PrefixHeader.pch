@@ -1,0 +1,23 @@
+//
+//  PrefixHeader.pch
+//  jike
+//
+//  Created by taotingxing on 2018/5/15.
+//  Copyright © 2018年 陶庭兴. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <YYKit/NSObject+YYModel.h>
+#import "UIView+Common.h"
+#import <Masonry/Masonry.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <SDWebImage/UIButton+WebCache.h>
+#import "AppKey.h"
+#import "inlineDefine.h"
+#import "ColorAndFont.h"
+
+#endif /* PrefixHeader_pch */
